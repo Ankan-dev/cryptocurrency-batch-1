@@ -40,13 +40,12 @@ main{
 }
 
 #banner-logo{
- width: 50%;
- height: 53%;
+ width: 10rem;
  margin-top: 30px;
 }
 
 #banner-heading{
-    font-size: 1.9vw;
+    font-size: 1.48rem;
     font-weight: 700;
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -64,8 +63,7 @@ main{
     font-family: "Poppins", sans-serif;
     text-align: center;
     margin-top: 0;
-    position: absolute;
-    bottom: 8rem;
+
 }
 
 #chart{
@@ -156,6 +154,7 @@ main{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
+    font-size: 80%;
 }
 
 #teams{
@@ -178,6 +177,7 @@ main{
     gap: 20px;
     align-items: center;
     padding-left: 20px;
+    overflow: auto;
 }
 
 .picture{
@@ -208,9 +208,39 @@ main{
     font-size: 0.9vw;
     text-align: justify;
 }
+ 
+#footer{
+    width: 100%;
+    position: absolute;
+    height: 25vh;
+    background-color: #2f2f2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
 
 
+#footer-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
 
+#footer-links a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#footer-icons{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
 @media (max-width:1100px) {
     main{
         display: block;
@@ -267,12 +297,11 @@ main{
 
     #Fundamental-left{
         margin-top: 20px;
-        font-weight: 600;
-        font-size: larger;
     }
     #Fundamental-left p{
         margin-left: 20px;
         margin-top: 10px;
+        
     }
     
     #Fundamental-left hr{
@@ -282,7 +311,6 @@ main{
     #Fundamental-right{
         margin-top: 20px;
         font-weight: 600;
-        font-size: larger;
     }
     #Fundamental-right p{
         margin-left: 20px;
@@ -349,6 +377,7 @@ main{
     .desc{
         width: 60%;
         height: 90%;
+        
     }
     .desc p{
         font-size: 2.2vw;
